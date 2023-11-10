@@ -12,7 +12,9 @@ class _SegundaPaginaState extends State<SegundaPagina> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Segunda Página'), jhhj),
+      appBar: AppBar(
+        title: Text('Segunda Página'),
+      ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.stretch,
